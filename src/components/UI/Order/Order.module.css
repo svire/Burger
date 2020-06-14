@@ -1,0 +1,11 @@
+.Order {
+  width: 80%;
+  border: 1px solid #ccc;
+
+  padding: 10px;
+  margin: 20px auto;
+}
+
+h4 {
+  color: blueviolet;
+}

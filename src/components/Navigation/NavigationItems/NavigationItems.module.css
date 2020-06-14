@@ -1,0 +1,15 @@
+.NavigationItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column; /* Ovo je da stoje jedan ispod drugog u side draweru  */
+  align-items: center;
+  height: 100%;
+}
+
+@media (min-width: 500px) {
+  .NavigationItems {
+    flex-flow: row; /* ovo je za desktop da stoje jedan ispod drugog  */
+  }
+}

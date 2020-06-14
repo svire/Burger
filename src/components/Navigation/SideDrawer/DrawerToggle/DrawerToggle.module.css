@@ -1,0 +1,43 @@
+.DrawerToggle {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.DrawerToggle:hover {
+  background-color: deepskyblue;
+}
+
+.DrawerToggle div {
+  width: 90%;
+  height: 3px;
+  background-color: white;
+}
+.DrawerToggle div:hover {
+  background-color: tan;
+  width: 110%;
+  height: 4px;
+  background-color: tan;
+}
+
+.DrawerToggle .dd {
+  width: 95%;
+  height: 5px;
+  background-color: pink;
+}
+.DrawerToggle .df {
+  width: 100%;
+  height: 6px;
+  background-color: springgreen;
+}
+@media (min-width: 500px) {
+  .DrawerToggle {
+    display: none;
+  }
+}
